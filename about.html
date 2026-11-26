@@ -1,0 +1,99 @@
+<!DOCTYPE html>
+<html lang="es">
+<head>
+  <meta charset="utf-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1">
+  <title>About me — ma!te</title>
+  <meta name="description" content="Maite Villarroel Carreño, estudiante de Diseño Industrial en la Universidad Diego Portales.">
+  <meta property="og:title" content="About me — ma!te">
+  <meta property="og:description" content="Maite Villarroel Carreño, estudiante de Diseño Industrial en la Universidad Diego Portales.">
+  <link rel="icon" href="assets/img/favicon.svg" type="image/svg+xml">
+  <link rel="preconnect" href="https://fonts.googleapis.com">
+  <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+  <link href="https://fonts.googleapis.com/css2?family=Inter:wght@400;500;700;900&display=swap" rel="stylesheet">
+  <link rel="stylesheet" href="assets/css/style.css">
+</head>
+<body data-page="about">
+<header class="site-header">
+  <a class="logo" href="index.html" aria-label="ma!te, inicio">ma!te</a>
+  <nav class="nav" aria-label="Principal">
+    <a href="about.html" aria-current="page">About me</a>
+    <a href="index.html#proyectos">Proyectos</a>
+    <a href="index.html#pura-mana">pura maña</a>
+    <a href="#contacto">Contacto</a>
+  </nav>
+</header>
+
+<main class="about">
+  <div class="about-duo">
+    <div class="about-duo-img">
+      <figure class="portrait-3d" data-portrait>
+          <div class="p3d-card" data-tilt-card>
+            <div class="p3d-back" aria-hidden="true"></div>
+            <canvas class="p3d-figure" data-src="assets/img/retrato-figura.png" width="872" height="900" role="img" aria-label="Retrato de Maite Villarroel"></canvas>
+          </div>
+        </figure>
+    </div>
+    <div class="about-duo-text">
+      <h1 class="about-title">About me</h1>
+        <div class="about-bio" data-reveal>
+          <p>Soy Maite Villarroel Carreño, estudiante de Diseño Industrial en la Universidad Diego Portales. Mi trabajo se orienta al desarrollo de objetos y soluciones mediante la exploración de herramientas, materiales y procesos de fabricación. Me interesa especialmente la relación entre diseño, tecnología e interacción digital, explorando nuevas formas de conectar a las personas con los objetos y sus entornos.</p>
+          <p>Paralelamente, gestiono <a class="bio-link" href="index.html#pura-mana">pura maña</a>, un estudio propio de fabricación digital e impresión 3D, donde desarrollo proyectos para clientes y empresas. Me encargo de las distintas etapas de producción, desde el modelado tridimensional y la selección de materiales hasta la fabricación final.</p>
+        </div>
+        <section class="block" data-reveal>
+          <span class="label">Herramientas</span>
+          <div class="spec spec-3">
+            <div>
+              <h3 class="label">CAD &amp; 3D</h3>
+              <ul><li>Rhino</li><li>Inventor</li><li>AutoCAD</li><li>Impresión 3D</li></ul>
+            </div>
+            <div>
+              <h3 class="label">Gráfica &amp; Electrónica</h3>
+              <ul><li>Illustrator</li><li>KiCad</li></ul>
+            </div>
+            <div>
+              <h3 class="label">Desarrollo Web</h3>
+              <ul><li>HTML</li><li>CSS</li><li>JavaScript</li><li>VS Code</li><li>GitHub</li></ul>
+            </div>
+          </div>
+        </section>
+
+    </div>
+  </div>
+</main>
+
+<footer class="contact" id="contacto">
+  <p class="label">Contacto</p>
+  <h2 class="contact-title" data-reveal>¿Tienes un proyecto o idea en mente?</h2>
+  <div class="contact-mail" data-reveal>
+    <a class="mail" href="mailto:maite.villarroel@mail.udp.cl">maite.villarroel@mail.udp.cl</a>
+    <button class="pill" type="button" data-copy="maite.villarroel@mail.udp.cl">Copiar</button>
+  </div>
+
+  <div class="contact-grid">
+    <div>
+      <p class="label">En línea</p>
+      <ul class="list">
+        <li><a class="link-line" href="https://github.com/maiteev" target="_blank" rel="noopener">GitHub</a><span class="muted">maiteev ↗</span></li>
+        <li><a class="link-line" href="https://instagram.com/puramana3d" target="_blank" rel="noopener">Instagram · pura maña</a><span class="muted">@puramana3d ↗</span></li>
+        <li><a class="link-line" href="assets/cv/cv.pdf" target="_blank" rel="noopener">CV (PDF)</a><span class="muted">↓</span></li>
+      </ul>
+    </div>
+    <div>
+      <p class="label">Créditos y fuentes</p>
+      <ul class="list">
+        <li><span>Tipografía Inter — Rasmus Andersson</span><a class="muted link-line" href="https://fonts.google.com/specimen/Inter" target="_blank" rel="noopener">Google Fonts · OFL</a></li>
+        <li><span>Estilo low-poly del retrato — Endless Tools</span><a class="muted link-line" href="https://app.endlesstools.io/project/1b8d228b-da94-4e83-90b6-0617256556fe" target="_blank" rel="noopener">endlesstools.io ↗</a></li>
+        <li><span>Carrusel 3D de pura maña — Carousel de Bencho</span><a class="muted link-line" href="https://bencho.dev/blocks/carousel" target="_blank" rel="noopener">bencho.dev · MIT · recreado en JS</a></li>
+      </ul>
+    </div>
+  </div>
+
+  <div class="footer-bottom">
+    <span>© 2026 ma!te · Diseño Industrial</span>
+    <a class="link-line" href="#">Volver arriba ↑</a>
+  </div>
+</footer>
+<script src="assets/js/main.js"></script>
+</body>
+</html>

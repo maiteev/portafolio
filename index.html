@@ -1,0 +1,263 @@
+<!DOCTYPE html>
+<html lang="es">
+<head>
+  <meta charset="utf-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1">
+  <title>ma!te — Diseño Industrial</title>
+  <meta name="description" content="Portafolio de ma!te, diseñadora industrial.">
+  <meta property="og:title" content="ma!te — Diseño Industrial">
+  <meta property="og:description" content="Portafolio de ma!te, diseñadora industrial.">
+  <link rel="icon" href="assets/img/favicon.svg" type="image/svg+xml">
+  <link rel="preconnect" href="https://fonts.googleapis.com">
+  <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+  <link href="https://fonts.googleapis.com/css2?family=Inter:wght@400;500;700;900&display=swap" rel="stylesheet">
+  <link rel="stylesheet" href="assets/css/style.css">
+</head>
+<body data-page="home">
+<header class="site-header">
+  <a class="logo" href="index.html" aria-label="ma!te, inicio">ma!te</a>
+  <nav class="nav" aria-label="Principal">
+    <a href="#about">About me</a>
+    <a href="#proyectos">Proyectos</a>
+    <a href="#pura-mana">pura maña</a>
+    <a href="#contacto">Contacto</a>
+  </nav>
+</header>
+
+<main>
+  <section class="hero" id="inicio">
+    <h1 class="sr-only">ma!te — Diseñadora industrial</h1>
+    <div class="wave" data-wave aria-hidden="true">
+      <div class="wave-row"><span class="w">ma!te</span><span class="w">ma!te</span><span class="w">ma!te</span></div>
+      <div class="wave-row"><span class="w">ma!te</span><span class="w">ma!te</span><span class="w">ma!te</span></div>
+      <div class="wave-row"><span class="w">ma!te</span><span class="w">ma!te</span><span class="w">ma!te</span></div>
+      <div class="wave-row"><span class="w">ma!te</span><span class="w">ma!te</span><span class="w">ma!te</span></div>
+      <div class="wave-row"><span class="w">ma!te</span><span class="w">ma!te</span><span class="w">ma!te</span></div>
+    </div>
+    <div class="hero-foot">
+      <p class="hero-intro"><strong>ma!te</strong> — Diseñadora industrial — Santiago de Chile</p>
+      <p class="hero-scroll">Scroll para explorar ↓</p>
+      <nav class="hero-quick" aria-label="Accesos directos">
+        <a class="link-line" href="#proyectos">Ver proyectos →</a>
+        <a class="link-line" href="#contacto">Contacto →</a>
+      </nav>
+    </div>
+  </section>
+
+  <section class="section about-home" id="about">
+    <div class="about-duo">
+      <div class="about-duo-img">
+        <figure class="portrait-3d" data-portrait>
+          <div class="p3d-card" data-tilt-card>
+            <div class="p3d-back" aria-hidden="true"></div>
+            <canvas class="p3d-figure" data-src="assets/img/retrato-figura.png" width="872" height="900" role="img" aria-label="Retrato de Maite Villarroel"></canvas>
+          </div>
+        </figure>
+      </div>
+      <div class="about-duo-text">
+        <h2 class="about-title" data-reveal>About me</h2>
+        <div class="about-bio" data-reveal>
+          <p>Soy Maite Villarroel Carreño, estudiante de Diseño Industrial en la Universidad Diego Portales. Mi trabajo se orienta al desarrollo de objetos y soluciones mediante la exploración de herramientas, materiales y procesos de fabricación. Me interesa especialmente la relación entre diseño, tecnología e interacción digital, explorando nuevas formas de conectar a las personas con los objetos y sus entornos.</p>
+          <p>Paralelamente, gestiono <a class="bio-link" href="#pura-mana">pura maña</a>, un estudio propio de fabricación digital e impresión 3D, donde desarrollo proyectos para clientes y empresas. Me encargo de las distintas etapas de producción, desde el modelado tridimensional y la selección de materiales hasta la fabricación final.</p>
+        </div>
+        <section class="block" data-reveal>
+          <span class="label">Herramientas</span>
+          <div class="spec spec-3">
+            <div>
+              <h3 class="label">CAD &amp; 3D</h3>
+              <ul><li>Rhino</li><li>Inventor</li><li>AutoCAD</li><li>Impresión 3D</li></ul>
+            </div>
+            <div>
+              <h3 class="label">Gráfica &amp; Electrónica</h3>
+              <ul><li>Illustrator</li><li>KiCad</li></ul>
+            </div>
+            <div>
+              <h3 class="label">Desarrollo Web</h3>
+              <ul><li>HTML</li><li>CSS</li><li>JavaScript</li><li>VS Code</li><li>GitHub</li></ul>
+            </div>
+          </div>
+        </section>
+
+      </div>
+    </div>
+  </section>
+
+  <section class="works" id="proyectos">
+    <div class="works-head">
+      <h2 class="works-title">Proyectos</h2>
+      <span class="muted">08 proyectos · 2 categorías</span>
+    </div>
+
+    <div class="work is-static" id="diseno-de-productos" data-work style="--n:4">
+      <div class="work-head">
+        <div>
+          <p class="label">01 — Categoría</p>
+          <h3 class="work-cat">Diseño de Productos</h3>
+        </div>
+        <div class="work-meta">
+          <span class="muted">04 proyectos</span>
+          <span class="work-hint" data-hint>Pasa el cursor sobre el mazo para desplegarlo</span>
+        </div>
+      </div>
+      <div class="stage" data-stage>
+        <a class="card" href="proyectos/banca-estructural.html" data-card data-id="banca-estructural">
+          <figure><img src="assets/img/banca-estructural-01.jpg" alt="Banca Estructural" loading="lazy"></figure>
+          <span class="card-info"><span>Banca Estructural</span><span class="muted"></span></span>
+        </a>
+        <a class="card" href="proyectos/juko.html" data-card data-id="juko">
+          <figure><img src="assets/img/juko-01.jpg" alt="jüko" loading="lazy"></figure>
+          <span class="card-info"><span>jüko</span><span class="muted"></span></span>
+        </a>
+        <a class="card" href="proyectos/zeta.html" data-card data-id="zeta">
+          <figure><img src="assets/img/zeta-01.jpg" alt="ZETA" loading="lazy"></figure>
+          <span class="card-info"><span>ZETA</span><span class="muted"></span></span>
+        </a>
+        <a class="card" href="proyectos/golondrina-chilena.html" data-card data-id="golondrina-chilena">
+          <figure><img src="assets/img/golondrina-chilena-01.jpg" alt="Golondrina Chilena" loading="lazy"></figure>
+          <span class="card-info"><span>Golondrina Chilena</span><span class="muted"></span></span>
+        </a>
+      </div>
+    </div>
+
+    <div class="work is-static" id="interaccion-digital" data-work style="--n:4">
+      <div class="work-head">
+        <div>
+          <p class="label">02 — Categoría</p>
+          <h3 class="work-cat">Interacción Digital</h3>
+        </div>
+        <div class="work-meta">
+          <span class="muted">04 proyectos</span>
+          <span class="work-hint" data-hint>Pasa el cursor sobre el mazo para desplegarlo</span>
+        </div>
+      </div>
+      <div class="stage" data-stage>
+        <a class="card" href="proyectos/gestos-justin.html" data-card data-id="gestos-justin">
+          <figure><img src="assets/img/gestos-justin-02.jpg" alt="Gestos Justin" loading="lazy"></figure>
+          <span class="card-info"><span>Gestos Justin</span><span class="muted"></span></span>
+        </a>
+        <a class="card" href="proyectos/no-solo-lo-intencional-se-nota.html" data-card data-id="no-solo-lo-intencional-se-nota">
+          <figure><img src="assets/img/no-solo-lo-intencional-se-nota-01.jpg" alt="No solo lo intencional se nota" loading="lazy"></figure>
+          <span class="card-info"><span>No solo lo intencional se nota</span><span class="muted"></span></span>
+        </a>
+        <a class="card" href="proyectos/misma-tierra.html" data-card data-id="misma-tierra">
+          <figure><img src="assets/img/misma-tierra-01.jpg" alt="Misma Tierra" loading="lazy"></figure>
+          <span class="card-info"><span>Misma Tierra</span><span class="muted"></span></span>
+        </a>
+        <a class="card" href="proyectos/pesca-tacto.html" data-card data-id="pesca-tacto">
+          <figure><img src="assets/img/pesca-tacto-01.jpg" alt="Pesca tacto" loading="lazy"></figure>
+          <span class="card-info"><span>Pesca tacto</span><span class="muted"></span></span>
+        </a>
+      </div>
+    </div>
+  </section>
+
+  <dialog class="modal" id="project-modal" aria-labelledby="modal-title">
+    <div class="modal-inner">
+      <button class="modal-close pill" type="button" data-close>Cerrar ✕</button>
+      <div class="modal-media">
+        <figure class="modal-main"></figure>
+        <div class="modal-thumbs" data-m-thumbs></div>
+      </div>
+      <div class="modal-info">
+        <p class="label" data-m-cat></p>
+        <h3 class="modal-title" id="modal-title" data-m-title></h3>
+        <dl class="modal-meta">
+          <div><dt class="label">Año</dt><dd data-m-year></dd></div>
+          <div><dt class="label">Categoría</dt><dd data-m-cat2></dd></div>
+          <div><dt class="label" data-m-tools-label>Materiales / herramientas</dt><dd data-m-tools></dd></div>
+          <div><dt class="label">Contexto</dt><dd data-m-context></dd></div>
+          <div><dt class="label">Equipo</dt><dd data-m-team></dd></div>
+        </dl>
+        <div class="modal-desc" data-m-desc></div>
+        <div class="btns" data-m-links></div>
+      </div>
+    </div>
+  </dialog>
+  <script type="application/json" id="projects-data">{"banca-estructural": {"name": "Banca Estructural", "year": "", "category": "Diseño de Productos", "tools": "Junquillos de madera 19 × 19 mm", "toolsLabel": "Materiales / herramientas", "team": "Acevedo, Lavalle y Toro", "context": "", "desc": ["Diseñamos y construimos una banca ligera y resistente con junquillos de madera, estudiando tensión, compresión, vigas y riostras."], "media": [{"src": "assets/img/banca-estructural-01.jpg", "video": false, "poster": ""}, {"src": "assets/img/banca-estructural-explosionada.jpg", "video": false, "poster": ""}, {"src": "assets/img/banca-estructural-02.jpg", "video": false, "poster": ""}, {"src": "assets/img/banca-estructural-03.jpg", "video": false, "poster": ""}, {"src": "assets/img/banca-estructural-04.jpg", "video": false, "poster": ""}], "repo": "", "live": "", "pdf": "assets/pdf/banca-estructural-planimetrias.pdf", "page": "proyectos/banca-estructural.html"}, "juko": {"name": "jüko", "year": "", "category": "Diseño de Productos", "tools": "Junquillos de madera 19 × 19 mm, papel de acuarela", "toolsLabel": "Materiales / herramientas", "team": "Belén Castillo, Martina Fernández y Ma. Ignacia Zamudio", "context": "", "desc": ["Desarrollamos una luminaria de junquillos y papel de acuarela, desde la exploración conceptual hasta el efecto lumínico."], "media": [{"src": "assets/img/juko-01.jpg", "video": false, "poster": ""}, {"src": "assets/img/juko-explosionada.jpg", "video": false, "poster": ""}, {"src": "assets/img/juko-02.jpg", "video": false, "poster": ""}, {"src": "assets/img/juko-03.jpg", "video": false, "poster": ""}], "repo": "", "live": "", "pdf": "assets/pdf/juko-planimetrias.pdf", "page": "proyectos/juko.html"}, "zeta": {"name": "ZETA", "year": "", "category": "Diseño de Productos", "tools": "Sheet metal plegado negro mate, madera", "toolsLabel": "Materiales / herramientas", "team": "", "context": "", "desc": ["Diseñé un velador de sheet metal negro y madera cuyas ranuras permiten reconfigurar las repisas sin herrajes visibles."], "media": [{"src": "assets/img/zeta-01.jpg", "video": false, "poster": ""}, {"src": "assets/img/zeta-explosionada.jpg", "video": false, "poster": ""}, {"src": "assets/img/zeta-02.jpg", "video": false, "poster": ""}, {"src": "assets/img/zeta-03.jpg", "video": false, "poster": ""}], "repo": "", "live": "", "pdf": "assets/pdf/zeta-planimetrias.pdf", "page": "proyectos/zeta.html"}, "golondrina-chilena": {"name": "Golondrina Chilena", "year": "", "category": "Diseño de Productos", "tools": "Madera de pino, madera de roble, chapa de madera, impresión 3D, acrílico", "toolsLabel": "Materiales / herramientas", "team": "Belén Castillo, Martina Fernández y Ma. Ignacia Zamudio", "context": "Convenio con el Parque Metropolitano de Santiago (Parquemet)", "desc": ["Diseñamos un móvil educativo de la golondrina chilena para Parquemet, traduciendo su forma y su vuelo en decisiones de fabricación."], "media": [{"src": "assets/img/golondrina-chilena-01.jpg", "video": false, "poster": ""}, {"src": "assets/img/golondrina-chilena-explosionada.jpg", "video": false, "poster": ""}, {"src": "assets/img/golondrina-chilena-02.jpg", "video": false, "poster": ""}, {"src": "assets/img/golondrina-chilena-03.jpg", "video": false, "poster": ""}], "repo": "", "live": "", "pdf": "assets/pdf/golondrina-chilena-planimetrias.pdf", "page": "proyectos/golondrina-chilena.html"}, "gestos-justin": {"name": "Gestos Justin", "year": "", "category": "Interacción Digital / Visión Artificial", "tools": "Python, MediaPipe, Visión Artificial", "toolsLabel": "Tecnologías", "team": "", "context": "", "desc": ["Programé en Python con MediaPipe un sistema que reconoce gestos de las manos por cámara y los asocia a 6 fotos de Justin Bieber."], "media": [{"src": "assets/img/gestos-justin-02.jpg", "video": false, "poster": ""}, {"src": "assets/img/gestos-justin-01.jpg", "video": false, "poster": ""}, {"src": "assets/video/gestos-justin.mp4", "video": true, "poster": "assets/img/gestos-justin-02.jpg"}], "repo": "https://github.com/maiteev/gestos-justin-", "live": "https://maiteev.github.io/gestos-justin-/", "pdf": "", "page": "proyectos/gestos-justin.html"}, "no-solo-lo-intencional-se-nota": {"name": "No solo lo intencional se nota", "year": "", "category": "Interacción Digital / Visión Artificial", "tools": "JavaScript, MediaPipe Hands, OpenCV", "toolsLabel": "Tecnologías", "team": "", "context": "", "desc": ["Creé una experiencia web que divide la cámara en dos realidades: el gesto voluntario que dibuja y el movimiento involuntario que se ilumina."], "media": [{"src": "assets/img/no-solo-lo-intencional-se-nota-01.jpg", "video": false, "poster": ""}, {"src": "assets/img/no-solo-lo-intencional-se-nota-02.jpg", "video": false, "poster": ""}, {"src": "assets/video/no-solo-lo-intencional-se-nota.mp4", "video": true, "poster": "assets/img/no-solo-lo-intencional-se-nota-01.jpg"}], "repo": "https://github.com/maiteev/No-solo-lo-intencional-se-nota", "live": "https://maiteev.github.io/No-solo-lo-intencional-se-nota/", "pdf": "", "page": "proyectos/no-solo-lo-intencional-se-nota.html"}, "misma-tierra": {"name": "Misma Tierra", "year": "", "category": "Interacción Digital / Arte Sonoro & 3D", "tools": "HTML, CSS, JavaScript, Web Audio API", "toolsLabel": "Tecnologías", "team": "", "context": "", "desc": ["Desarrollé una plataforma web que traduce mi movimiento frente a la cámara en sonidos de metalófono alrededor de un árbol 3D."], "media": [{"src": "assets/img/misma-tierra-01.jpg", "video": false, "poster": ""}, {"src": "assets/img/misma-tierra-02.jpg", "video": false, "poster": ""}, {"src": "assets/video/misma-tierra.mp4", "video": true, "poster": "assets/img/misma-tierra-01.jpg"}], "repo": "https://github.com/maiteev/Misma-tierra-", "live": "https://maiteev.github.io/Misma-tierra-/", "pdf": "", "page": "proyectos/misma-tierra.html"}, "pesca-tacto": {"name": "Pesca tacto", "year": "", "category": "Interacción Digital / Videojuego Móvil", "tools": "Sensores de movimiento, interacción táctil, WebSockets / comunicación inalámbrica", "toolsLabel": "Tecnologías", "team": "", "context": "", "desc": ["Diseñé un videojuego para dos personas que convierte el teléfono en control para pescar y cocinar con gestos, sensores y vibración."], "media": [{"src": "assets/img/pesca-tacto-01.jpg", "video": false, "poster": ""}, {"src": "assets/img/pesca-tacto-02.jpg", "video": false, "poster": ""}, {"src": "assets/video/pesca-tacto.mp4", "video": true, "poster": "assets/img/pesca-tacto-01.jpg"}], "repo": "https://github.com/maiteev/pesca-tacto-", "live": "https://maiteev.github.io/pesca-tacto-/juego.html", "pdf": "", "page": "proyectos/pesca-tacto.html"}}</script>
+
+  <section class="brand" id="pura-mana">
+    <div class="brand-head">
+      <p class="label">Emprendimiento / Proyecto propio</p>
+      <h2 class="brand-title" data-reveal>pura maña</h2>
+      <div class="brand-text">
+        <p class="brand-lead" data-reveal>Gestiono mi propio estudio de fabricación digital e impresión 3D, encargándome de todo el proceso: desde el modelado 3D y la selección de materiales hasta la producción final para clientes y empresas.</p>
+        <div class="brand-body" data-reveal>
+          <ul class="brand-facts">
+            <li><span class="muted">Servicios</span><span>Fabricación digital · Impresión 3D</span></li>
+            <li><span class="muted">Instagram</span><a class="link-line" href="https://instagram.com/puramana3d" target="_blank" rel="noopener">@puramana3d ↗</a></li>
+          </ul>
+        </div>
+      </div>
+    </div>
+
+    <div class="ring" data-ring>
+      <div class="carousel-bar">
+        <span class="muted">07 piezas · arrastra o lanza para girar</span>
+        <div class="carousel-arrows">
+          <button class="arrow" type="button" data-prev aria-label="Pieza anterior">←</button>
+          <button class="arrow" type="button" data-next aria-label="Pieza siguiente">→</button>
+        </div>
+      </div>
+      <div class="ring-stage" data-ring-stage tabindex="0" aria-label="Piezas de pura maña. Usa las flechas para girar.">
+        <figure class="ring-card" data-title="01 — Soporte" data-meta="Impresión 3D">
+          <img src="assets/img/pura-mana-01.jpg" alt="pura maña, soporte" draggable="false">
+        </figure>
+        <figure class="ring-card" data-title="02 — Ballena calada" data-meta="Proyecto para Whales Chile">
+          <img src="assets/img/pura-mana-02.jpg" alt="pura maña, ballena calada" draggable="false">
+        </figure>
+        <figure class="ring-card" data-title="03 — Llavero Chile" data-meta="Proyecto para Whales Chile">
+          <img src="assets/img/pura-mana-03.jpg" alt="pura maña, llavero chile" draggable="false">
+        </figure>
+        <figure class="ring-card" data-title="04 — Colas de ballena" data-meta="Proyecto para Whales Chile">
+          <img src="assets/img/pura-mana-04.jpg" alt="pura maña, colas de ballena" draggable="false">
+        </figure>
+        <figure class="ring-card" data-title="05 — Cola de ballena" data-meta="Proyecto para Whales Chile">
+          <img src="assets/img/pura-mana-05.jpg" alt="pura maña, cola de ballena" draggable="false">
+        </figure>
+        <figure class="ring-card" data-title="06 — Colgantes cola de ballena" data-meta="Proyecto para Whales Chile">
+          <img src="assets/img/pura-mana-06.jpg" alt="pura maña, colgantes cola de ballena" draggable="false">
+        </figure>
+        <figure class="ring-card" data-title="07 — Llavero ballena" data-meta="Proyecto para Whales Chile">
+          <img src="assets/img/pura-mana-07.jpg" alt="pura maña, llavero ballena" draggable="false">
+        </figure>
+      </div>
+      <p class="ring-caption" aria-live="polite"><span data-ring-title></span><span class="muted" data-ring-meta></span></p>
+    </div>
+  </section>
+</main>
+
+<footer class="contact" id="contacto">
+  <p class="label">Contacto</p>
+  <h2 class="contact-title" data-reveal>¿Tienes un proyecto o idea en mente?</h2>
+  <div class="contact-mail" data-reveal>
+    <a class="mail" href="mailto:maite.villarroel@mail.udp.cl">maite.villarroel@mail.udp.cl</a>
+    <button class="pill" type="button" data-copy="maite.villarroel@mail.udp.cl">Copiar</button>
+  </div>
+
+  <div class="contact-grid">
+    <div>
+      <p class="label">En línea</p>
+      <ul class="list">
+        <li><a class="link-line" href="https://github.com/maiteev" target="_blank" rel="noopener">GitHub</a><span class="muted">maiteev ↗</span></li>
+        <li><a class="link-line" href="https://instagram.com/puramana3d" target="_blank" rel="noopener">Instagram · pura maña</a><span class="muted">@puramana3d ↗</span></li>
+        <li><a class="link-line" href="assets/cv/cv.pdf" target="_blank" rel="noopener">CV (PDF)</a><span class="muted">↓</span></li>
+      </ul>
+    </div>
+    <div>
+      <p class="label">Créditos y fuentes</p>
+      <ul class="list">
+        <li><span>Tipografía Inter — Rasmus Andersson</span><a class="muted link-line" href="https://fonts.google.com/specimen/Inter" target="_blank" rel="noopener">Google Fonts · OFL</a></li>
+        <li><span>Estilo low-poly del retrato — Endless Tools</span><a class="muted link-line" href="https://app.endlesstools.io/project/1b8d228b-da94-4e83-90b6-0617256556fe" target="_blank" rel="noopener">endlesstools.io ↗</a></li>
+        <li><span>Carrusel 3D de pura maña — Carousel de Bencho</span><a class="muted link-line" href="https://bencho.dev/blocks/carousel" target="_blank" rel="noopener">bencho.dev · MIT · recreado en JS</a></li>
+      </ul>
+    </div>
+  </div>
+
+  <div class="footer-bottom">
+    <span>© 2026 ma!te · Diseño Industrial</span>
+    <a class="link-line" href="#">Volver arriba ↑</a>
+  </div>
+</footer>
+<script src="assets/js/main.js"></script>
+</body>
+</html>
